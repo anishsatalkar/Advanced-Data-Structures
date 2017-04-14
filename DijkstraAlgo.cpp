@@ -178,10 +178,6 @@ int main()
 	d.addEdges();
 	d.addEdges();
 	d.addEdges();
-	/*d.addEdges();
-	d.addEdges();
-	d.addEdges();
-	d.addEdges();*/
 	d.displayGraph();
 	d.shortestPaths(List[0]);		//Starting node is basically the first node in the list
 	
