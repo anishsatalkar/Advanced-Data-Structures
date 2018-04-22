@@ -119,8 +119,6 @@ void Dijkstra :: shortestPaths(node *startVertex)
 
 	int listIndex = getIndexOf(startVertex->city);	
 	
-	//cout<<"\nList index is : "<<listIndex;
-	
 	distanceArr[listIndex] = 0;
 	
 	while(!allVisited())
@@ -139,11 +137,7 @@ void Dijkstra :: shortestPaths(node *startVertex)
 		
 		visited[listIndex] = 1;
 		
-		listIndex = returnIndex();
-		
-		//printVisited();
-		
-		
+		listIndex = returnIndex();		
 	}
 }
 
